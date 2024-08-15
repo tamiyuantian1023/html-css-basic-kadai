@@ -51,7 +51,7 @@ h2::before {
      margin-right: 5px;
 }
 
-p .umbrella {
+.contents p:nth-of-type(2)::first-letter {
   color: rgb(97, 206, 249);
   font-weight: bold;
 }
@@ -80,9 +80,5 @@ a:hover {
   }
   #parent {
       flex-direction: column;
-  }
-  .contents {
-      flex-basis: 100%; 
-      margin: 10px 0; 
   }
 }
